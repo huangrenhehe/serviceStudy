@@ -1,0 +1,468 @@
+2019-08-08 18:09:02  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-08 18:09:02  [ main:12 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-08 18:09:02  [ main:14 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-08 18:09:02  [ main:27 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:09:02  [ main:28 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-08 18:09:02  [ main:48 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-08 18:09:02  [ main:51 ] - [ DEBUG ]  Connection established 10.30.120.126:56568<->10.16.24.201:80
+2019-08-08 18:09:02  [ main:52 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:09:02  [ main:52 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-08 18:09:02  [ main:54 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-08 18:09:02  [ main:56 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:09:02  [ main:57 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-08 18:09:02  [ main:57 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-08 18:09:02  [ main:58 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-08 18:09:02  [ main:58 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-08 18:09:02  [ main:58 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2019-08-08 18:09:02  [ main:58 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-08 18:09:02  [ main:59 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-08 18:09:02  [ main:59 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-08 18:09:02  [ main:59 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-08 18:09:02  [ main:60 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-08 18:09:02  [ main:60 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:09:02  [ main:60 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2019-08-08 18:09:02  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:09:02  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-08 18:09:02  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-08 18:09:02  [ main:72 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:09:02  [ main:73 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-08 18:09:02  [ main:74 ] - [ DEBUG ]  http-outgoing-0 << "Date: Thu, 08 Aug 2019 10:09:02 GMT[\r][\n]"
+2019-08-08 18:09:02  [ main:74 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-08 18:09:02  [ main:74 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-08 18:09:02  [ main:75 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-08 18:09:02  [ main:75 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-08 18:09:02  [ main:75 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: 3478f232ff853407[\r][\n]"
+2019-08-08 18:09:02  [ main:76 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-08 18:09:02  [ main:76 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:09:02  [ main:76 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-08 18:09:02  [ main:77 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-08 18:09:02  [ main:77 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-08 18:09:02  [ main:80 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-08 18:09:02  [ main:80 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-08 18:09:02  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-08 18:09:02  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:09:02  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-08 18:09:02  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-08 18:09:02  [ main:85 ] - [ DEBUG ]  http-outgoing-0 << Date: Thu, 08 Aug 2019 10:09:02 GMT
+2019-08-08 18:09:02  [ main:85 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-08 18:09:02  [ main:85 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-08 18:09:02  [ main:86 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-08 18:09:02  [ main:86 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-08 18:09:02  [ main:87 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: 3478f232ff853407
+2019-08-08 18:09:02  [ main:87 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-08 18:09:02  [ main:92 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-08 18:09:02  [ main:99 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-08 18:09:02  [ main:99 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:09:02  [ main:118 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒104毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}
+2019-08-08 18:09:52  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-08 18:09:52  [ main:14 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-08 18:09:52  [ main:17 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-08 18:09:52  [ main:40 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:09:52  [ main:42 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-08 18:09:52  [ main:50 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-08 18:09:52  [ main:53 ] - [ DEBUG ]  Connection established 10.30.120.126:56712<->10.16.24.201:80
+2019-08-08 18:09:52  [ main:54 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:09:52  [ main:55 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-08 18:09:52  [ main:57 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-08 18:09:52  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:09:52  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-08 18:09:52  [ main:62 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-08 18:09:52  [ main:62 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-08 18:09:52  [ main:63 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-08 18:09:52  [ main:63 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2019-08-08 18:09:52  [ main:64 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-08 18:09:52  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-08 18:09:52  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-08 18:09:52  [ main:69 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-08 18:09:52  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-08 18:09:52  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:09:52  [ main:72 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2019-08-08 18:09:52  [ main:72 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:09:52  [ main:72 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-08 18:09:52  [ main:73 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-08 18:09:53  [ main:97 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:09:53  [ main:98 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-08 18:09:53  [ main:98 ] - [ DEBUG ]  http-outgoing-0 << "Date: Thu, 08 Aug 2019 10:09:52 GMT[\r][\n]"
+2019-08-08 18:09:53  [ main:99 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-08 18:09:53  [ main:99 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-08 18:09:53  [ main:99 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-08 18:09:53  [ main:100 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-08 18:09:53  [ main:101 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: c6ee50db0c71f929[\r][\n]"
+2019-08-08 18:09:53  [ main:102 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-08 18:09:53  [ main:102 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:09:53  [ main:103 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-08 18:09:53  [ main:104 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-08 18:09:53  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-08 18:09:53  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-08 18:09:53  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-08 18:09:53  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-08 18:09:53  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:09:53  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-08 18:09:53  [ main:111 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-08 18:09:53  [ main:111 ] - [ DEBUG ]  http-outgoing-0 << Date: Thu, 08 Aug 2019 10:09:52 GMT
+2019-08-08 18:09:53  [ main:112 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-08 18:09:53  [ main:112 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-08 18:09:53  [ main:113 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-08 18:09:53  [ main:113 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-08 18:09:53  [ main:114 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: c6ee50db0c71f929
+2019-08-08 18:09:53  [ main:114 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-08 18:09:53  [ main:121 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-08 18:09:53  [ main:130 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-08 18:09:53  [ main:130 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:09:53  [ main:156 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒141毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}
+2019-08-08 18:09:53  [ Finalizer:242 ] - [ DEBUG ]  Connection manager is shutting down
+2019-08-08 18:09:53  [ Finalizer:242 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2019-08-08 18:09:53  [ Finalizer:242 ] - [ DEBUG ]  Connection manager shut down
+2019-08-08 18:09:53  [ main:454 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:457 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:460 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2019-08-08 18:09:53  [ main:460 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2019-08-08 18:09:53  [ main:688 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:689 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:690 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-08-08 18:09:53  [ main:690 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2019-08-08 18:09:53  [ main:693 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:693 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:694 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2019-08-08 18:09:53  [ main:694 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2019-08-08 18:09:53  [ main:714 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:717 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:721 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2019-08-08 18:09:53  [ main:722 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2019-08-08 18:09:53  [ main:735 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:735 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:736 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2019-08-08 18:09:53  [ main:736 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2019-08-08 18:09:53  [ main:750 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:751 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:751 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2019-08-08 18:09:53  [ main:752 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2019-08-08 18:09:53  [ main:771 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:772 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:773 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2019-08-08 18:09:53  [ main:774 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2019-08-08 18:09:53  [ main:776 ] - [ DEBUG ]  Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:777 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:777 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2019-08-08 18:09:53  [ main:777 ] - [ DEBUG ]  Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2019-08-08 18:09:53  [ main:781 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:782 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:783 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2019-08-08 18:09:53  [ main:783 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2019-08-08 18:09:53  [ main:786 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:787 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:788 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2019-08-08 18:09:53  [ main:788 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2019-08-08 18:09:53  [ main:792 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:09:53  [ main:792 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2019-08-08 18:09:53  [ main:793 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2019-08-08 18:09:53  [ main:793 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2019-08-08 18:16:12  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-08 18:16:12  [ main:21 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-08 18:16:12  [ main:24 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-08 18:16:12  [ main:50 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:16:12  [ main:53 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-08 18:16:12  [ main:63 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-08 18:16:12  [ main:69 ] - [ DEBUG ]  Connection established 10.30.120.126:57818<->10.16.24.201:80
+2019-08-08 18:16:12  [ main:70 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:16:12  [ main:74 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-08 18:16:12  [ main:103 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-08 18:16:12  [ main:110 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:16:12  [ main:111 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-08 18:16:12  [ main:111 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-08 18:16:12  [ main:111 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-08 18:16:12  [ main:112 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-08 18:16:12  [ main:112 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2019-08-08 18:16:12  [ main:112 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-08 18:16:12  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-08 18:16:12  [ main:114 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-08 18:16:12  [ main:117 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-08 18:16:12  [ main:118 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-08 18:16:12  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:16:12  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2019-08-08 18:16:12  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:16:12  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-08 18:16:12  [ main:124 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-08 18:16:12  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:16:12  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-08 18:16:12  [ main:160 ] - [ DEBUG ]  http-outgoing-0 << "Date: Thu, 08 Aug 2019 10:16:12 GMT[\r][\n]"
+2019-08-08 18:16:12  [ main:160 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-08 18:16:12  [ main:161 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-08 18:16:12  [ main:161 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-08 18:16:12  [ main:161 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-08 18:16:12  [ main:162 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: 7c64be556d95c0cb[\r][\n]"
+2019-08-08 18:16:12  [ main:162 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-08 18:16:12  [ main:162 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:16:12  [ main:163 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-08 18:16:12  [ main:163 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-08 18:16:12  [ main:163 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-08 18:16:12  [ main:164 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-08 18:16:12  [ main:165 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-08 18:16:12  [ main:165 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-08 18:16:12  [ main:166 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:16:12  [ main:170 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-08 18:16:12  [ main:170 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-08 18:16:12  [ main:171 ] - [ DEBUG ]  http-outgoing-0 << Date: Thu, 08 Aug 2019 10:16:12 GMT
+2019-08-08 18:16:12  [ main:171 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-08 18:16:12  [ main:171 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-08 18:16:12  [ main:172 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-08 18:16:12  [ main:172 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-08 18:16:12  [ main:173 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: 7c64be556d95c0cb
+2019-08-08 18:16:12  [ main:173 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-08 18:16:12  [ main:179 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-08 18:16:12  [ main:187 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-08 18:16:12  [ main:187 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:16:12  [ main:232 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒200毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}
+2019-08-08 18:16:12  [ Finalizer:316 ] - [ DEBUG ]  Connection manager is shutting down
+2019-08-08 18:16:12  [ Finalizer:317 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2019-08-08 18:16:12  [ Finalizer:318 ] - [ DEBUG ]  Connection manager shut down
+2019-08-08 18:16:13  [ main:494 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:495 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:497 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2019-08-08 18:16:13  [ main:498 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2019-08-08 18:16:13  [ main:791 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:792 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:792 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-08-08 18:16:13  [ main:793 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2019-08-08 18:16:13  [ main:800 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:800 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:801 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2019-08-08 18:16:13  [ main:801 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2019-08-08 18:16:13  [ main:810 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:823 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:824 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2019-08-08 18:16:13  [ main:824 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2019-08-08 18:16:13  [ main:836 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:837 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:837 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2019-08-08 18:16:13  [ main:838 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2019-08-08 18:16:13  [ main:853 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:854 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:854 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2019-08-08 18:16:13  [ main:854 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2019-08-08 18:16:13  [ main:869 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:869 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:870 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2019-08-08 18:16:13  [ main:870 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2019-08-08 18:16:13  [ main:874 ] - [ DEBUG ]  Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:874 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:875 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2019-08-08 18:16:13  [ main:875 ] - [ DEBUG ]  Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2019-08-08 18:16:13  [ main:891 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:892 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:892 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2019-08-08 18:16:13  [ main:892 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2019-08-08 18:16:13  [ main:900 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:901 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:901 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2019-08-08 18:16:13  [ main:901 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2019-08-08 18:16:13  [ main:905 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:16:13  [ main:905 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2019-08-08 18:16:13  [ main:906 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2019-08-08 18:16:13  [ main:906 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2019-08-08 18:21:32  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-08 18:21:32  [ main:19 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-08 18:21:32  [ main:22 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-08 18:21:32  [ main:43 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:21:32  [ main:46 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-08 18:21:32  [ main:58 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-08 18:21:32  [ main:64 ] - [ DEBUG ]  Connection established 10.30.120.126:58661<->10.16.24.201:80
+2019-08-08 18:21:32  [ main:65 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:21:32  [ main:65 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-08 18:21:32  [ main:67 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-08 18:21:32  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:21:32  [ main:72 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-08 18:21:32  [ main:72 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-08 18:21:32  [ main:73 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-08 18:21:32  [ main:73 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-08 18:21:32  [ main:74 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2019-08-08 18:21:32  [ main:74 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-08 18:21:32  [ main:76 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-08 18:21:32  [ main:77 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-08 18:21:32  [ main:77 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-08 18:21:32  [ main:78 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-08 18:21:32  [ main:78 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:21:32  [ main:94 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2019-08-08 18:21:32  [ main:95 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:21:32  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-08 18:21:32  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-08 18:21:32  [ main:116 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:21:32  [ main:117 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-08 18:21:32  [ main:118 ] - [ DEBUG ]  http-outgoing-0 << "Date: Thu, 08 Aug 2019 10:21:32 GMT[\r][\n]"
+2019-08-08 18:21:32  [ main:118 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-08 18:21:32  [ main:119 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-08 18:21:32  [ main:119 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-08 18:21:32  [ main:120 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-08 18:21:32  [ main:121 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: 9a589d5fe8f37d12[\r][\n]"
+2019-08-08 18:21:32  [ main:121 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-08 18:21:32  [ main:122 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:21:32  [ main:123 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-08 18:21:32  [ main:123 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-08 18:21:32  [ main:124 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-08 18:21:32  [ main:125 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-08 18:21:32  [ main:125 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-08 18:21:32  [ main:126 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-08 18:21:32  [ main:126 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:21:32  [ main:130 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-08 18:21:32  [ main:131 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-08 18:21:32  [ main:131 ] - [ DEBUG ]  http-outgoing-0 << Date: Thu, 08 Aug 2019 10:21:32 GMT
+2019-08-08 18:21:32  [ main:131 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-08 18:21:32  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-08 18:21:32  [ main:133 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-08 18:21:32  [ main:134 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-08 18:21:32  [ main:134 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: 9a589d5fe8f37d12
+2019-08-08 18:21:32  [ main:135 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-08 18:21:32  [ main:144 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-08 18:21:32  [ main:159 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-08 18:21:32  [ main:160 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:21:32  [ main:193 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒167毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}
+2019-08-08 18:21:32  [ Finalizer:312 ] - [ DEBUG ]  Connection manager is shutting down
+2019-08-08 18:21:32  [ Finalizer:312 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2019-08-08 18:21:32  [ Finalizer:314 ] - [ DEBUG ]  Connection manager shut down
+2019-08-08 18:21:32  [ main:477 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:32  [ main:479 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2019-08-08 18:21:32  [ main:483 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2019-08-08 18:21:32  [ main:484 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2019-08-08 18:21:33  [ main:728 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:729 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:729 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-08-08 18:21:33  [ main:730 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2019-08-08 18:21:33  [ main:733 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:734 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:734 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2019-08-08 18:21:33  [ main:735 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2019-08-08 18:21:33  [ main:756 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:757 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:758 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2019-08-08 18:21:33  [ main:758 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2019-08-08 18:21:33  [ main:771 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:772 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:772 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2019-08-08 18:21:33  [ main:772 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2019-08-08 18:21:33  [ main:792 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:793 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:793 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2019-08-08 18:21:33  [ main:793 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2019-08-08 18:21:33  [ main:807 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:808 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:808 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2019-08-08 18:21:33  [ main:809 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2019-08-08 18:21:33  [ main:812 ] - [ DEBUG ]  Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:813 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:814 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2019-08-08 18:21:33  [ main:814 ] - [ DEBUG ]  Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2019-08-08 18:21:33  [ main:820 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:821 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:821 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2019-08-08 18:21:33  [ main:822 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2019-08-08 18:21:33  [ main:827 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:828 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:829 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2019-08-08 18:21:33  [ main:829 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2019-08-08 18:21:33  [ main:834 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:21:33  [ main:835 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2019-08-08 18:21:33  [ main:835 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2019-08-08 18:21:33  [ main:835 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2019-08-08 18:31:09  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-08 18:31:09  [ main:18 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-08 18:31:09  [ main:20 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-08 18:31:09  [ main:40 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:31:09  [ main:42 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-08 18:31:09  [ main:51 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-08 18:31:09  [ main:57 ] - [ DEBUG ]  Connection established 10.30.120.126:60242<->10.16.24.201:80
+2019-08-08 18:31:09  [ main:57 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:31:09  [ main:58 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-08 18:31:10  [ main:60 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-08 18:31:10  [ main:63 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-08 18:31:10  [ main:63 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-08 18:31:10  [ main:64 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-08 18:31:10  [ main:64 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-08 18:31:10  [ main:65 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-08 18:31:10  [ main:65 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2019-08-08 18:31:10  [ main:66 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-08 18:31:10  [ main:66 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-08 18:31:10  [ main:67 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-08 18:31:10  [ main:67 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-08 18:31:10  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-08 18:31:10  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:31:10  [ main:69 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2019-08-08 18:31:10  [ main:69 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:31:10  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-08 18:31:10  [ main:73 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-08 18:31:10  [ main:92 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:31:10  [ main:93 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-08 18:31:10  [ main:93 ] - [ DEBUG ]  http-outgoing-0 << "Date: Thu, 08 Aug 2019 10:31:10 GMT[\r][\n]"
+2019-08-08 18:31:10  [ main:93 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-08 18:31:10  [ main:93 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-08 18:31:10  [ main:94 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-08 18:31:10  [ main:94 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-08 18:31:10  [ main:94 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: c3d1817ad419878a[\r][\n]"
+2019-08-08 18:31:10  [ main:95 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-08 18:31:10  [ main:95 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:31:10  [ main:96 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-08 18:31:10  [ main:97 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-08 18:31:10  [ main:97 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-08 18:31:10  [ main:98 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-08 18:31:10  [ main:98 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-08 18:31:10  [ main:99 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-08 18:31:10  [ main:99 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-08 18:31:10  [ main:103 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-08 18:31:10  [ main:103 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-08 18:31:10  [ main:104 ] - [ DEBUG ]  http-outgoing-0 << Date: Thu, 08 Aug 2019 10:31:10 GMT
+2019-08-08 18:31:10  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-08 18:31:10  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-08 18:31:10  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-08 18:31:10  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-08 18:31:10  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: c3d1817ad419878a
+2019-08-08 18:31:10  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-08 18:31:10  [ main:114 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-08 18:31:10  [ main:121 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-08 18:31:10  [ main:121 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-08 18:31:10  [ main:144 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒134毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}
+2019-08-08 18:31:10  [ Finalizer:212 ] - [ DEBUG ]  Connection manager is shutting down
+2019-08-08 18:31:10  [ Finalizer:213 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2019-08-08 18:31:10  [ Finalizer:213 ] - [ DEBUG ]  Connection manager shut down
+2019-08-08 18:31:10  [ main:445 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:461 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:467 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2019-08-08 18:31:10  [ main:467 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2019-08-08 18:31:10  [ main:718 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:719 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:719 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-08-08 18:31:10  [ main:720 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2019-08-08 18:31:10  [ main:724 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:725 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:725 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2019-08-08 18:31:10  [ main:725 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2019-08-08 18:31:10  [ main:744 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:744 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:745 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2019-08-08 18:31:10  [ main:745 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2019-08-08 18:31:10  [ main:757 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:758 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:758 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2019-08-08 18:31:10  [ main:758 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2019-08-08 18:31:10  [ main:777 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:778 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:779 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2019-08-08 18:31:10  [ main:780 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2019-08-08 18:31:10  [ main:793 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:794 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:794 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2019-08-08 18:31:10  [ main:794 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2019-08-08 18:31:10  [ main:800 ] - [ DEBUG ]  Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:800 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:801 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2019-08-08 18:31:10  [ main:801 ] - [ DEBUG ]  Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2019-08-08 18:31:10  [ main:809 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:809 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:813 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2019-08-08 18:31:10  [ main:814 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2019-08-08 18:31:10  [ main:817 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:818 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:818 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2019-08-08 18:31:10  [ main:819 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2019-08-08 18:31:10  [ main:824 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-08-08 18:31:10  [ main:824 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2019-08-08 18:31:10  [ main:825 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2019-08-08 18:31:10  [ main:825 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

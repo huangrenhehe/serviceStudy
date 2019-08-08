@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Qa">
+    <test name="QaAtuoDemo">
+        <classes>
+            <class name="com.test.QaAtuoDemo"/>
+        </classes>
+    </test>
+    <!--<test name="your test name2">-->
+    <!--<classes>-->
+    <!--<class name="com.testng.BasicAnnotationStudy2"/>-->
+    <!--</classes>-->
+    <!--</test>-->
+
+    <listeners>
+        <listener class-name="com.utils.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>
+
